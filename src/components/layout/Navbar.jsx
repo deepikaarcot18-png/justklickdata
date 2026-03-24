@@ -18,6 +18,8 @@ export default function Navbar() {
 
   return (
     <div className="w-full">
+      
+      {/* NAVBAR CONTENT (UNCHANGED) */}
       <div className="max-w-[1300px] mx-auto px-1 flex items-center h-[72px]">
         
         {/* LEFT LOGO */}
@@ -104,6 +106,10 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+
+      {/* 🔥 FULL EDGE-TO-EDGE LINE (FORCED) */}
+      <div className="w-screen relative left-1/2 -ml-[50vw] border-b border-gray-200 mb-3 pb-3"></div>
+
     </div>
   );
 }
